@@ -2,6 +2,9 @@
 
 # Handy Stuff
 
+## Embedded Stuff
+Always disable `Systicks`before going into `EM2`- `EM3`!
+
 ## Doxygen documentation
 
 ### Github pages
