@@ -56,6 +56,13 @@ https://www.pcbway.com/
 ***
 
 ## Windows
+| Shortcut | Action |
+| -------- | -----: |
+| `WIN+E` | File explorer |
+| `CTRL+SHIFT+ESC` | Task manager |
+| `CTRL+ALT+DEL` | Task manager 2 |
+
+
 ### Chrome
 | Shortcut | Action |
 | -------- | -----: |
