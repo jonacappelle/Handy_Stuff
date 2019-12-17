@@ -1,3 +1,5 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/jonacappelle/Handy_Stuff.svg)
+
 # Handy Stuff
 
 ### Doxygen documentation in Github Pages
