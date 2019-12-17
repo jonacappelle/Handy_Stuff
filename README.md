@@ -5,7 +5,7 @@ Add `.nojekyll` file to `/docs/` folder
 
 ***
 
-### Change all extension in a folder (Windows)
+### Change all extension in a folder *(Windows)*
 - Open `CMD` or `Powershell`
 - `ren *.LRV *.mp4`
 
