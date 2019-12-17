@@ -13,3 +13,11 @@ Add `.nojekyll` file to `/docs/` folder
 
 ### Unpack tarball
 `tar -czvf xxx.tar.gz xxx`
+
+## VS Code
+| Shortcut      | Action           |
+| ------------- |-----------------:|
+| `ALT+Z`       | Toggle Word Wrap |
+| `F1` | Command Window |
+| `CTRL+K` `CTRL+O` | Open folder |
+| `CTRL+:` | Toggle line comment |
