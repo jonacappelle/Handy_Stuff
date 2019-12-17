@@ -3,7 +3,8 @@
 # Handy Stuff
 
 ## Embedded Stuff
-Always disable `Systicks`before going into `EM2`- `EM3`!
+#### Always disable `Systicks`before going into `EM2`- `EM3`!
+#### Pullup resistors can draw a lot of power! --> Set `GPIO Ports` high to prevent this
 
 ## Doxygen documentation
 
