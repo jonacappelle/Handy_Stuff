@@ -2,19 +2,43 @@
 
 # Handy Stuff
 
-### Doxygen documentation in Github Pages
+## Doxygen documentation
+
+### Github pages
 Add `.nojekyll` file to `/docs/` folder
 
+Github does not recognize `/_filename` files
+
+### Documentation example
+
+``` 
+/**************************************************************************//**
+ * @brief
+ *   xxx
+ *
+ * @details
+ *	 xxx
+ *
+ * @note
+ * 	 xxx
+ *
+ * @warning
+ *   xxx
+ *
+ * @param[in/out] naam
+ *   @li 'true' - xxx
+ *   @li 'false' - xxx
+ *
+ *****************************************************************************/
+ ```
+
 ***
 
-### Change all extension in a folder *(Windows)*
-- Open `CMD` or `Powershell`
-- `ren *.LRV *.mp4`
-
-***
-
+## Linux
 ### Unpack tarball
 `tar -czvf xxx.tar.gz xxx`
+
+***
 
 ## VS Code
 | Shortcut      | Action           |
@@ -24,5 +48,25 @@ Add `.nojekyll` file to `/docs/` folder
 | `CTRL+K` `CTRL+O` | Open folder |
 | `CTRL+:` | Toggle line comment |
 
-### PCB Manufacturing
+***
+
+## PCB Manufacturing
 https://www.pcbway.com/
+
+***
+
+## Windows
+### Chrome
+| Shortcut | Action |
+| -------- | -----: |
+| `CTRL+T` | Open new tab |
+| `CTRL+N` | Open new window |
+| `CTRL+SHIFT+T`| Open recently closed tab |
+| `CTRL+W`| Close tab |
+
+
+### Change all extension in a folder
+- Open `CMD` or `Powershell`
+- `ren *.LRV *.mp4`
+
+***
