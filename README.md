@@ -52,6 +52,53 @@ Github does not recognize `/_filename` files
 | `CTRL+K` `CTRL+O` | Open folder |
 | `CTRL+:` | Toggle line comment |
 
+### Python Graphs
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+import csv
+
+#Clean B&W Graphs
+plt.style.use('grayscale')
+
+x=[]
+y=[]
+
+with open('input_file.csv', 'r') as csvfile:
+    line_count = 0
+    plots = csv.reader(csvfile, delimiter=',') #choose your own delimiter
+    for row in plots:
+        if line_count < 1:  # lijn zonder data
+            print('lijn zonder data')
+            line_count += 1
+        else:
+            x.append(float(row[0]))
+            y.append(float(row[1]))
+
+# Plot graph
+plt.plot(x,y)
+
+# Add legend, to plot more than just the first letter, use ".legend(('xxx',))"
+plt.legend(('Test',))
+
+# Type plot
+#plt.hist(y,x, histtype='bar')
+#plt.stem(x, y, markerfmt=" ", use_line_collection=True)
+plt.axis([0,0.00008,-2,10])
+plt.title('Switching spanning')
+
+#X&Y labels
+plt.xlabel('Tijd [s]')
+plt.ylabel('Spanning [V]')
+
+#Saveas, uncomment to save
+#plt.savefig('switching_freq.png')
+
+# Show
+plt.show()
+```
+
 ***
 
 ## PCB Manufacturing
