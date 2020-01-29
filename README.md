@@ -226,3 +226,14 @@ End Sub
 - `ren *.LRV *.mp4`
 
 ***
+
+## Adobe suite
+### Lightroom
+- HDR photo's auto stack: `photo` --> `Auto stack by capture time`
+
+| Shortcut | Action |
+| -------- | -----: |
+| `CTRL+H` | Make HDR |
+| `CTRL+SHIFT+H` | HDR based on previous settings |
+
+***
