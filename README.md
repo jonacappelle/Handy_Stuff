@@ -6,6 +6,13 @@
 #### Always disable `Systicks`before going into `EM2`- `EM3`!
 #### Pullup resistors can draw a lot of power! --> Set `GPIO Ports` high to prevent this
 
+### Eagle
+| Shortcut      | Action           |
+| ------------- |-----------------:|
+| `CHANGE PACKAGE 'xxx'`       | Change multiple footprints |
+
+
+
 ## Doxygen documentation
 
 ### Github pages
