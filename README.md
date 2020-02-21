@@ -59,6 +59,10 @@ Github does not recognize `/_filename` files
 | `CTRL+K` `CTRL+O` | Open folder |
 | `CTRL+:` | Toggle line comment |
 
+### Python create virtual invironment
+`python -m venv .venv`
+
+
 ### Python Graphs
 
 ```
