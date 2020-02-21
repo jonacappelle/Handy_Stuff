@@ -62,6 +62,11 @@ Github does not recognize `/_filename` files
 ### Python create virtual invironment
 `python -m venv .venv`
 
+### Activate venv
+`.venv\Scripts\activate`
+
+### Install necessary packages
+`pip install -r requirements.txt`
 
 ### Python Graphs
 
