@@ -6,6 +6,17 @@
 #### Always disable `Systicks`before going into `EM2`- `EM3`!
 #### Pullup resistors can draw a lot of power! --> Set `GPIO Ports` high to prevent this
 
+### I2C on EFM32 when using I2CSPM library
+- `( I2C address << 1 )`
+- `IIC_WriteReadBuffer( ( I2C_ADDRESS << 1 ), wBuffer, wLength, rBuffer, rLength);`
+
+wBuffer[0] --> I2C register address 
+
+wBuffer[1] --> data to write
+
+- When reading: `wLength = 1`
+- When writing 1 byte: `wLength = 2`
+
 ### Eagle
 | Shortcut      | Action           |
 | ------------- |-----------------:|
