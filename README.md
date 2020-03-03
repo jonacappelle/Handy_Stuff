@@ -17,6 +17,9 @@ wBuffer[1] --> data to write
 - When reading: `wLength = 1`
 - When writing 1 byte: `wLength = 2`
 
+### Add math.h to Silplicity studio project
+project properties window, then to C/C++ build --> settings --> GNU ARM C linker --> Libraries, then in the Libraries (-l) window, click "Add..>" and type "m" in the window that pops up. This should allow you to add the standard C math library into the project.
+
 ### Eagle
 | Shortcut      | Action           |
 | ------------- |-----------------:|
