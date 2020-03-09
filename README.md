@@ -76,6 +76,7 @@ For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacap
 | `CTRL+:` | Toggle line comment |
 | `CTRL+K+C:` | Comment |
 | `CTRL+K+U:` | Uncomment |
+| `SHIFT+ALT+F` | Auto format document |
 
 ### Python create virtual invironment
 `python -m venv .venv`
