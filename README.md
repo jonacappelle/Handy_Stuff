@@ -66,6 +66,8 @@ Github does not recognize `/_filename` files
 ***
 
 ## VS Code
+For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacappelle/Handy_Stuff/blob/master/keyboard-shortcuts-windows.pdf)
+
 | Shortcut      | Action           |
 | ------------- |-----------------:|
 | `ALT+Z`       | Toggle Word Wrap |
