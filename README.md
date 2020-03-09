@@ -136,7 +136,8 @@ plt.show()
 ***
 
 ## PCB Manufacturing
-https://www.pcbway.com/
+https://www.pcbway.com/  
+https://jlcpcb.com/
 
 ***
 
