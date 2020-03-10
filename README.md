@@ -81,6 +81,9 @@ For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacap
 ### Python create virtual invironment
 `python -m venv .venv`
 
+### Set execution policy
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`
+
 ### Activate venv
 `.venv\Scripts\activate`
 
