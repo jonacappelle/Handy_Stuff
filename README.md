@@ -21,11 +21,14 @@ wBuffer[1] --> data to write
 project properties window, then to C/C++ build --> settings --> GNU ARM C linker --> Libraries, then in the Libraries (-l) window, click "Add..>" and type "m" in the window that pops up. This should allow you to add the standard C math library into the project.
 
 ### Debug tips & tricks
+- No. 1: **`Clean build`** !!!
 - enable necessary `clocks`
 - include all `em_lib.c` files
 - include all `em_lib.h` files
 - include `folders` in project
-- 
+- Sometimes you think it's included, but it's not!
+
+
 
 #### Debug jumping around ***FIX***:  
 - Debug --> Debug Configurations --> Exceptions --> `Enable All`
