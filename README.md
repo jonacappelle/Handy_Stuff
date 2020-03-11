@@ -20,6 +20,21 @@ wBuffer[1] --> data to write
 ### Add math.h to Silplicity studio project
 project properties window, then to C/C++ build --> settings --> GNU ARM C linker --> Libraries, then in the Libraries (-l) window, click "Add..>" and type "m" in the window that pops up. This should allow you to add the standard C math library into the project.
 
+### Debug tips & tricks
+- enable necessary `clocks`
+- include all `em_lib.c` files
+- include all `em_lib.h` files
+- include `folders` in project
+- 
+
+#### Debug jumping around ***FIX***:  
+- Debug --> Debug Configurations --> Exceptions --> `Enable All`
+- Project properties --> C/C++ Build --> Settings --> Debug Settings --> Debug Level --> `Maximum (-g3)` or `Default (-g)`
+- Project properties --> C/C++ Build --> Settings --> Optimization --> `None (-O0)` or `Optimize for debugging (-Og)`
+
+- Problem can be invisible character in code:  
+With: `#ifdef x -- #endif` check until where code runs
+
 ### Eagle
 | Shortcut      | Action           |
 | ------------- |-----------------:|
