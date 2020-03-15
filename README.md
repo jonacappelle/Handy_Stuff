@@ -96,6 +96,9 @@ For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacap
 | `CTRL+K+U:` | Uncomment |
 | `SHIFT+ALT+F` | Auto format document |
 
+### PYTHON GRAPHS TEMPLATE LATEX
+[Click Here](https://github.com/jonacappelle/Handy_Stuff/blob/master/Graphs_template.py)
+
 ### Python create virtual invironment
 `python -m venv .venv`
 
