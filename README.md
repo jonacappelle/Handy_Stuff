@@ -1,4 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/jonacappelle/Handy_Stuff.svg)
+![GitHub follow](https://img.shields.io/github/followers/jonacappelle?label=Follow%20Me%21&style=social)
+![GitHub star](https://img.shields.io/github/stars/jonacappelle/Handy_Stuff?style=social)
 
 # Handy Stuff
 
