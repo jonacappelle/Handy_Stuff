@@ -54,26 +54,7 @@ Github does not recognize `/_filename` files
 
 ### Documentation example
 
-``` 
-/**************************************************************************//**
- * @brief
- *   xxx
- *
- * @details
- *	 xxx
- *
- * @note
- * 	 xxx
- *
- * @warning
- *   xxx
- *
- * @param[in/out] naam
- *   @li 'true' - xxx
- *   @li 'false' - xxx
- *
- *****************************************************************************/
- ```
+[Click Here](https://github.com/jonacappelle/Handy_Stuff/blob/master/doxygen_template.md)
 
 ***
 
@@ -147,7 +128,7 @@ https://jlcpcb.com/
 #### Progress bar on dia's
 - Search `Macro's`
 - `Add macro`
-
+- Add [This Code](https://github.com/jonacappelle/Handy_Stuff/blob/master/ppt_progress_bar.md)
 
 ### Change all extension in a folder
 - Open `CMD` or `Powershell`
