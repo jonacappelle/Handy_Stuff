@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template - Jona Cappelle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside,a4paper]{article}
+\usepackage{geometry}
+
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage{amsmath} % Required for some math elements
+\usepackage{lastpage} % know last page (used in fancy header)
+\usepackage{fancyhdr} % Fancy Header
+\usepackage[xindy, toc, numberedsection]{glossaries} % glossaries with xindy (recommended) for the indexing phase and show glossaries in TOC, and numberedsection to get a Setion number in the title
+\usepackage{url} %The command is intended for email addresses, hypertext links, directories/paths, etc., which normally have no spaces, so by default the package ignores spaces in its argument.
+\usepackage{minted} % it allows formatting and highlighting source code
+% in addition, Pygments must be installed
+% How to install on Windows:
+% 1) install python (and add it to your PATH)
+% 2) install pip (https://pip.pypa.io/en/stable/installing/)
+% 3) install pygments (pip install Pygments)
+% add pygments to your PATH, the command "pip show Pygments" shows where the lib is installed
+% Of course, pdfLaTeX (or whatever engine/format you use) still has to be called with the -shell-escape option.
+\usepackage{pgf} % python graphs with latex style
+\usepackage{booktabs} % fancy tabellen
+\usepackage[]{colortbl} % fancy colors
+\usepackage{multirow} % more advanced tables
+\usepackage{tabularx} % more adjustable tables
+
+\renewcommand{\arraystretch}{1.2} % more spacing in tables
+
+
+\loadglsentries{glossaries.tex}
+\makeglossaries % generate the glossary
+% Any links in resulting glossary will not be "clickable" unless you load the glossaries package after the hyperref package.
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+\renewcommand{\arraystretch}{1.2} % Increasing the array stretch factor using \renewcommand{\arraystretch}{<factor>} where <factor> is a numeric value
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+\newcommand{\maintitle}{TITLE}
+\newcommand{\course}{COURSE}
+\newcommand{\coursenumber}{COURSE NR}
+\newcommand{\class}{MELICTEES}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HEADER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\course}
+\fancyhead[RE,LO]{\maintitle}
+% if working with chapters
+% \fancyfoot[CE,CO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage\ of \pageref{LastPage}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HEADER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%------------------------------ TITLE PAGE -----------------------------
+\title{\maintitle \\ \course \\{\small\ (\coursenumber)}} % Title
+
+\author{Jona \textsc{Cappelle}} % Author name
+
+\date{\today} % Date for the report
+
+\begin{document}\sloppy % sloppy is used to enforce that lines are in hbox
+\newgeometry{hmarginratio=1:1}    %% make layout symmetric
+\pagenumbering{gobble}% Remove page numbers (and reset to 1)
+\begin{titlepage}
+\maketitle % Insert the title, author and date
+
+\vfill
+\begin{center}
+\includegraphics[width=0.13\textwidth]{logo_kuleuven.png} %
+\end{center}
+%each \vfill will expand vertically the same amount until the entire page is filled
+\vfill
+\vfill
+\vfill
+
+\begin{center}
+\begin{tabular}{l r}
+Session Date: & date, 2020 \\ % Date the experiment was performed
+\\
+Partners: &  Jona Cappelle\\ % Partner names
+&  xxxxx\\
+Class: & \class \\
+\\
+Instructor: &  INSTRUCTOR% Instructor/supervisor
+\end{tabular}
+\end{center}
+\vfill
+\vfill
+\end{titlepage}
+\clearpage
+\newpage\null\thispagestyle{empty}\newpage % blank page after title page
+
+%%------------------------------ TITLE PAGE -----------------------------
+
+
+\restoregeometry%              %% restore the layout
+\pagenumbering{arabic}% Arabic page numbers (and reset to 1)
+
+\tableofcontents
+\listoffigures
+% \listoftables
+% \listoflistings%
+\clearpage
+
+%----------------------------------------------------------------------------------------
+%	INLEIDING
+%----------------------------------------------------------------------------------------
+\section{Inleiding}
+
+%----------------------------------------------------------------------------------------
+%	PROBLEEMSTELLING
+%----------------------------------------------------------------------------------------
+\section{Probleemstelling}
+
+
+%----------------------------------------------------------------------------------------
+%	OPLOSSING
+%----------------------------------------------------------------------------------------
+\section{Oplossing}
+
+
+%----------------------------------------------------------------------------------------
+%	ANALYSE
+%----------------------------------------------------------------------------------------
+\section{Analyse}
+
+
+%----------------------------------------------------------------------------------------
+%	BESLUIT
+%----------------------------------------------------------------------------------------
+\newpage
+\section{Besluit}
+% waarom goed / niet goed
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+\newpage
+\appendix
+\section{APPENDIX}
+
+% \inputminted[linenos=true, breaklines=true]{language}{xxx.xxx}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\clearpage
+\bibliographystyle{IEEEtranN}
+% \bibliography{bib}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
