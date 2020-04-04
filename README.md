@@ -40,6 +40,13 @@ project properties window, then to C/C++ build --> settings --> GNU ARM C linker
 - Problem can be invisible character in code:  
 With: `#ifdef x -- #endif` check until where code runs
 
+## PCB Design
+
+- No ground plane under antenna
+- Use test-points + jumpers
+- Decoupling, decoupling, decoupling!
+
+
 ### Eagle
 | Shortcut      | Action           |
 | ------------- |-----------------:|
