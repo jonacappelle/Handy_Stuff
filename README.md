@@ -94,6 +94,10 @@ For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacap
 ### Formula tools
 [Mathpix](https://mathpix.com/) converts pictures / screenshots to LaTeX formulas.
 
+## Quotes
+\usepackage[]{textcmds}  
+\q{}
+
 ## Python
 
 ### PYTHON GRAPHS TEMPLATE LATEX
