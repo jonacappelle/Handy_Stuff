@@ -40,6 +40,12 @@ project properties window, then to C/C++ build --> settings --> GNU ARM C linker
 - Problem can be invisible character in code:  
 With: `#ifdef x -- #endif` check until where code runs
 
+### Going ultra-low power
+ - Disable pins using: `GPIO_PinModeSet(BLE_PORT, BLE_PIN_TX, gpioModeDisabled, 0);`
+ - Do NOT use 1 at the end, this sets a pullup resistor and draws about `15 microA` per pin!!
+ 
+ - Disable clocks to all peripherals
+
 ## PCB Design
 
 - No ground plane under antenna
