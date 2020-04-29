@@ -45,6 +45,17 @@ With: `#ifdef x -- #endif` check until where code runs
  - Do NOT use 1 at the end, this sets a pullup resistor and draws about `15 microA` per pin!!
  
  - Disable clocks to all peripherals
+ 
+ - When using RTCDRV timer, you must use RTCDRV_DeInit() otherwise MCU will wake-up every 7-8 minutes.
+ 
+ Correct usage:
+ ```
+RTCDRV_Init();
+RTCDRV_AllocateTimer (&IMU_Idle_Timer );
+RTCDRV_StartTimer( IMU_Idle_Timer, rtcdrvTimerTypePeriodic, 2000, (RTCDRV_Callback_t)CheckIMUidle, NULL);
+RTCDRV_StopTimer( IMU_Idle_Timer );
+RTCDRV_DeInit();
+ ```
 
 ## PCB Design
 
