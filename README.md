@@ -108,6 +108,10 @@ For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacap
 ### LaTeX Template
 [Click Here](https://github.com/jonacappelle/Handy_Stuff/blob/master/template_LaTeX.tex)
 
+## Maple
+
+maple to latex: `latex( "insert maple formula here" )`
+
 ### Formula tools
 [Mathpix](https://mathpix.com/) converts pictures / screenshots to LaTeX formulas.
 
