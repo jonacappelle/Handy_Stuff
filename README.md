@@ -57,7 +57,7 @@ RTCDRV_StopTimer( IMU_Idle_Timer );
 RTCDRV_DeInit();
  ```
 
-## PCB Design
+## PCB Design good practices
 
 - No ground plane under antenna
 - Use test-points + jumpers
