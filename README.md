@@ -62,6 +62,7 @@ RTCDRV_DeInit();
 - No ground plane under antenna
 - Use test-points + jumpers
 - Decoupling, decoupling, decoupling!
+- 100nF on VDD lines
 
 
 ### Eagle
