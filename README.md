@@ -137,6 +137,11 @@ maple to latex: `latex( "insert maple formula here" )`
 ### Install necessary packages
 `pip install -r requirements.txt`
 
+
+## Inkscape
+PDF to SVG conversion: `inkscape -l output.svg input.pdf`
+
+
 ***
 
 ## PCB Manufacturing
