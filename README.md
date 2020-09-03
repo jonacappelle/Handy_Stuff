@@ -109,6 +109,10 @@ For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacap
 ### LaTeX Template
 [Click Here](https://github.com/jonacappelle/Handy_Stuff/blob/master/template_LaTeX.tex)
 
+### Capitals in bibtex
+Place `{...}` around capital letters
+
+
 ## Maple
 
 maple to latex: `latex( "insert maple formula here" )`
