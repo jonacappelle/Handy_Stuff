@@ -112,6 +112,17 @@ For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacap
 ### Capitals in bibtex
 Place `{...}` around capital letters
 
+### Figure full width in IEEE template
+use 
+```
+\begin{figure*}
+    \centering
+    \includegraphics{}
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure*}
+```
+
 
 ## Maple
 
