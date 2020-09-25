@@ -16,3 +16,6 @@
 256 kB - Corresponds to 0x40000
 
 512 kB - Corresponds to 0x80000
+
+
+https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/nRF52832_PS_v1.0.pdf 
