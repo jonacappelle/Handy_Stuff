@@ -65,6 +65,11 @@ RTCDRV_DeInit();
 - 100nF on VDD lines
 
 
+- ALWAYS follow datasheet recommendations
+- Be carefull with ```ground planes next to traces!```, this creates parasitic capacitances which may influence your circuit
+
+
+
 ### Eagle
 | Shortcut      | Action           |
 | ------------- |-----------------:|
