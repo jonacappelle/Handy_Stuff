@@ -67,7 +67,7 @@ RTCDRV_DeInit();
 
 - ALWAYS follow datasheet recommendations
 - Be carefull with ```ground planes next to traces!```, this creates parasitic capacitances which may influence your circuit
-
+- Separate DGND and AGND plane - separate by condensator or high ohm resistor
 
 
 ### Eagle
@@ -78,7 +78,7 @@ RTCDRV_DeInit();
 | `RIPUP @;`       | Ripup ground planes after ratsnest |
 | `VIA 'GND'`       | Place via connected to GND |
 
-- Separate DGND and AGND plane - separate by condensator or high ohm resistor
+
 
 
 ## Doxygen documentation
