@@ -78,6 +78,7 @@ RTCDRV_DeInit();
 | `RIPUP @;`       | Ripup ground planes after ratsnest |
 | `VIA 'GND'`       | Place via connected to GND |
 
+- Separate DGND and AGND plane - separate by condensator or high ohm resistor
 
 
 ## Doxygen documentation
