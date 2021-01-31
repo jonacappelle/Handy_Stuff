@@ -76,6 +76,7 @@ RTCDRV_DeInit();
 | `CHANGE PACKAGE 'xxx'`       | Change multiple footprints |
 | `RATSNEST`       | FIll all planes |
 | `RIPUP @;`       | Ripup ground planes after ratsnest |
+| `VIA 'GND'`       | Place via connected to GND |
 
 
 
