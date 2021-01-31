@@ -74,6 +74,8 @@ RTCDRV_DeInit();
 | Shortcut      | Action           |
 | ------------- |-----------------:|
 | `CHANGE PACKAGE 'xxx'`       | Change multiple footprints |
+| `RATSNEST`       | FIll all planes |
+| `RIPUP @;`       | Ripup ground planes after ratsnest |
 
 
 
