@@ -95,7 +95,7 @@ Github does not recognize `/_filename` files
 ***
 
 ## Linux
-### Unpack tarball
+### Pack tarball
 `tar -czvf xxx.tar.gz xxx`
 
 ***
