@@ -79,6 +79,18 @@ RTCDRV_DeInit();
 | `VIA 'GND'`       | Place via connected to GND |
 
 
+## Git - GitHub
+
+### Delete commits from GitHub: 
+- ```git reset --hard d4df9b850f25ae8ae81a41d7979ebbdb77a1eefb```
+- ```git push origin +d4df9b850f25ae8ae81a41d7979ebbdb77a1eefb^:develop```
+
+- d4df9b850f25ae8ae81a41d7979ebbdb77a1eefb = commit nr
+- develop = branch name
+
+### Create new branch
+- ```git branch newbranch_name```
+
 
 
 ## Doxygen documentation
