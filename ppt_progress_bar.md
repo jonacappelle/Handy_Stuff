@@ -4,13 +4,13 @@
 Sub AddProgressBar()
     ' Parameters to set
     progressBarHeight = 3.5 ' height of the progress bar
-    FillColor = RGB(251, 0, 6) ' Fill color of the progress bar
+    FillColor = RGB(50, 160, 200) ' Fill color of the progress bar
     LineColor = FillColor ' Line color of the progress bar
     BackgroundColor = RGB(255, 255, 255) ' background color of the progress bar
     fontColor = FillColor
     startingSlideNo = 1
     noFontSize = 13
-    showSlideNo = True ' Set this to False if you dont want to show total slide no
+    showSlideNo = False ' Set this to False if you dont want to show total slide no
     'Slider Making
     On Error Resume Next
         With ActivePresentation
