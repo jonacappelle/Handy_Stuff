@@ -144,6 +144,16 @@ use
 \end{figure*}
 ```
 
+### ORCID id next to name
+
+Include package
+```
+\usepackage{orcidlink}
+```
+and in text use:
+```
+Name Surname \orcidlink{0000-0000-0000-0000}
+```
 
 ## Maple
 
