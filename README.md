@@ -124,6 +124,7 @@ For a full overview of shortcuts, see: [VS Shortcuts](https://github.com/jonacap
 | `CTRL+K+C:` | Comment |
 | `CTRL+K+U:` | Uncomment |
 | `SHIFT+ALT+F` | Auto format document |
+| `CTRL + K (then press O)` | Open current tab in new window | 
 
 ## LaTeX
 
