@@ -62,7 +62,7 @@ Sub AddProgressBar()
                     ' Slide No
                     If showSlideNo = True Then
                         With pageNumber
-                            .TextFrame.TextRange.Text = Str(i - n) & "/" & _
+                            .TextFrame.TextRange.Text = Str(i - n) ' & "/" & _
                                     Str(ActivePresentation.Slides.Count - j)
                             With .TextFrame.TextRange.Font
                                 .Bold = msoFalse
